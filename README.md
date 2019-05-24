@@ -1,1 +1,5 @@
-# Python_Crash_Course_WIP
+# Python Crash Course progress log
+
+I recently lost most of my progress for this book, so I am temporarily storing this information here, and will wipe once i'm back to my previous level.
+
+This is a way for me to mark my progress of reading Python Crash Course by Eric Matthes, whilst also providing easy reference points for me to return to for revision purposes.

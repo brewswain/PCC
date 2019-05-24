@@ -1,7 +1,7 @@
 
 """
 Testing for equality is case sensitive in Python.
-For eg:
+eg:
 """
 car = 'Audi'
 car == 'audi'  # False

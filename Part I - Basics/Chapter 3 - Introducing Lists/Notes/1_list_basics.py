@@ -6,6 +6,9 @@ the digits from 0-9, etc. You can put anything you want into a list, and the ite
 particular way. It's a good idea to make the name of your list plural,  such as letter, digits, or names.
 
 Square brackets indicate a list in python, and the individual elements are separated by commas.
+
+List indices start at the number '0', and not '1', thus ensuring that index position [3] is actually the 4th element.
+This can cause some errors if you are not aware, so keep that in mind.
 """
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 

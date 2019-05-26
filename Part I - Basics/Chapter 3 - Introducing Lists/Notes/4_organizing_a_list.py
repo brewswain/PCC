@@ -32,3 +32,25 @@ print(sorted(cars))
 
 print('\nHere is the original list again:')
 print(cars)
+
+# Printing a List in Reverse Order
+
+"""
+To reverse the original order of a list, you can use the reverse() method. 
+"""
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+cars.reverse()
+print(cars)
+
+
+# Finding the Length of a List
+
+"""
+You can easily find the length of a list by using the len() function. Python counts the items starting with one, so 
+there is no off-by-one error possibility when determining the length of a list.
+"""
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))

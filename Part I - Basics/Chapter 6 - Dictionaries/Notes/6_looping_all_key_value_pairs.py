@@ -13,8 +13,10 @@ all of a dictionary's key-value pairs, through its keys, or through its values.
 """
 Let's consider a new dictionary designed to store information about a user on a website.
 The dictionary would store the user's username, first name, and last name.
-If you wanted to see everything stored iin this user's dictionary, you could loop through
-the entire dictionary by using a for loop
+If you wanted to see everything stored in this user's dictionary, you could loop through
+the entire dictionary by using a for loop.
+
+As seen below, the items() method returns a list of key-value pairs.
 """
 user_0 = {'username': 'efermi', 'first': 'enrico', 'last': 'fermi'}
 

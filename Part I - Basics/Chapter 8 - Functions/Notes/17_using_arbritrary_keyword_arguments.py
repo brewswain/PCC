@@ -34,7 +34,7 @@ The double asterisks before the parameter **user_info causes Python to
 create an empty dictionary called user_info and pack whatever name-value
 pairs it receives into this dictionary. At line 22, we loop through the
 additional key-value pairs in the dictionary user_info and add each pair
-to the profile dictionary. Finally, we return t he profile dictionary to 
+to the profile dictionary. Finally, we return the profile dictionary to 
 the function call line.
 
 You can mix positional, keyword, and arbitrary values in many different 

@@ -19,7 +19,7 @@ Because text_files is insside python_work, you could use a relative file path to
 open a file from text_files, for example:
 """
 
-# with open('Python_Crash_Course_WIP/Part I - Basics/Chapter 10 - Files and Exceptions\Notes/pi_digits.txt'):
+# with open(r"Python_Crash_Course_WIP\Part I - Basics\Chapter 10 - Files and Exceptions\example files\pi_digits.txt"):
 
 """
 You can also tell Python exactly where the file  is on your computer regardless of

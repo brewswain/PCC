@@ -1,0 +1,4 @@
+In python you can do a lot of stuff
+In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.

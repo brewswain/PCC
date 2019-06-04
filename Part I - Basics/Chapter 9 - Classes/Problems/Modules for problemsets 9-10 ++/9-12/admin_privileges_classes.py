@@ -23,6 +23,3 @@ class Admin(User):
         self.privileges = Privileges()
 
 
-blee = Admin('brandon', 'lee', 'blee@admin.com')
-blee.describe_user()
-blee.privileges.show_privileges()

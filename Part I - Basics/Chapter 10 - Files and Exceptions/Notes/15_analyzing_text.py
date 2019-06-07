@@ -28,7 +28,7 @@ get a rough idea of the number of words in the text:
 """
 
 
-filename = 'alice.txt'
+filename = "Python_Crash_Course_WIP/Part I - Basics/Chapter 10 - Files and Exceptions/example files/alice.txt"
 
 try:
     with open(filename) as file_object:
@@ -40,9 +40,28 @@ else:
     # Count the approximate number of words in the file.
     words = contents.split()
     num_words = len(words)
-    print("The file " + filename + "has about " + str(num_words) + " words.")
+    filename = 'alice.txt'  # Placed here to make output neater.
+    print("The file " + filename + " has about " + str(num_words) + " words.")
 
 
 """
+We moved the file alice.txt to the correct directory, so the try block will
+work this time. At line 41, we take the string contents, which now contains
+the entire text of Alice in Wonderland as one long string, and use the split()
+method to produce a list of all the words in the book. When we use len() on this
+list to examine its length, we get a good approximation of the number of words in
+the original string(line 42).
 
+At line 43 we print a statement that reports how many words were found in the 
+file. This code is placed in the else block because it will work only if the code 
+in the try block was executed successfully. the output tells us how many words are 
+in alice.txt:
+
+==================================================
+|   # The file alice.txt has about 29465 words.  |
+==================================================
+
+The count is a little high because extra information is provided by the publisher in 
+the text file used here, but it's a good approximation of the length of Alice in
+Wonderland.
 """

@@ -50,7 +50,7 @@ capitalized, properly spaced full name, we expect the value in formatted_name to
 'Janis Joplin'. To check if this is true, we use unittest's assertEqual() method and 
 pass it formatted_name and 'Janis Joplin'. 
 
-The line "self.assertEqual(formatted_name, 'Janis Joplin')"says, "Compare the value 
+The line "self.assertEqual(formatted_name, 'Janis Joplin')" says, "Compare the value 
 in formatted_name to the string 'Janis Joplin'. If they are equal as expected, fine. 
 But if they don't match, let me know."
 
@@ -65,7 +65,7 @@ program, we get the following output:
 |   OK                                          |
 =================================================
 
-The dot on the firs line of output tells us that a single test passed. The next line
+The dot on the first line of output tells us that a single test passed. The next line
 tells us that Python ran one test, and it took less than 0.001 seconds to run. The
 final OK tells us that all unit tests in the test case passed.
 

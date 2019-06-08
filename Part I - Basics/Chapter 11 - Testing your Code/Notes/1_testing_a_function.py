@@ -1,5 +1,5 @@
 """
-To learn about testing, we need code4 to test. Here's a simple function
+To learn about testing, we need code to test. Here's a simple function
 that takes in a  first and last name, and returns a neatly formatted
 full name:
 """

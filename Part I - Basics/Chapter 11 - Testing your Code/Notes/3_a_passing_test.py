@@ -12,7 +12,7 @@ when given a first and last name:
 """
 
 import unittest
-from name_function import get_formatted_name
+from tests.name_function import get_formatted_name
 
 
 class NameTestCase(unittest.TestCase):

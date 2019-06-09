@@ -1,5 +1,5 @@
 """
-    Let's try using a variable in hello_world.py.
+Let's try using a variable in hello_world.py.
 We'll assign a variable with the value of "Hello World!", then use that variable to print our message.
 """
 

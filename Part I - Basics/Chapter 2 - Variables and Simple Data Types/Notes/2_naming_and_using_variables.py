@@ -1,7 +1,9 @@
 """
-    Variables adhere to a few rules and guidelines. Breaking some of these rules will cause errors, while other rules
-are just in place to help you write code that has improved readability. the rules are as follows:
+Variables adhere to a few rules and guidelines. Breaking some of these rules will cause errors, while other rules
+are just in place to help you write code that has improved readability. 
+The rules are as follows:
 """
+
 # Variable Names can only contain letters, numbers, and underscores.
 
 # They can start with a letter or underscore, but not with a number. For instance, message_1, not 1_message.

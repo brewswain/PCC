@@ -50,8 +50,8 @@ We need to update the call to check_ events()  in alien_invasion.py so it passes
 
 # Start the main loop for the game
 while True:
-        gf.check_events(ship)
-        gf.update_screen(ai_settings, screen, ship)
+    gf.check_events(ship)
+    gf.update_screen(ai_settings, screen, ship)
 
 """
 If you run alien_invasion.py now, you should see the ship move to the right one pixel every time you

@@ -48,3 +48,14 @@ def check_events(ship):
             elif event.key == pygame.K_LEFT:
                 ship.moving_left = False
 
+"""
+If a KEYDOWN event occurs for the K_LEFT key, we set moving_left to True. If a KEYUP event occurs for the
+K_LEFT key, we set moving_left to False. We can use elif blocks here because each event is connected to only
+one key. If the player presses both keys at once, two separate events will be detected. 
+
+If you run alien_invasion.py now, you should be able to move the ship continuously to the right and left. If
+you hold down both keys, the ship should stop moving. 
+
+Next, we'll further refine the movement of the ship. Let's adjust the ship's speed and limit how far the ship
+can move so it doesn't disappear of the sides of the screen.
+"""

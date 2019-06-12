@@ -1,6 +1,10 @@
-import sys
+"""
+The check_events() function will increase in length as we continue to develop the game, so let's break
+check_events() into two more functions: One that handles KEYDOWN events and another that handles
+KEYUP events:
+"""
 
-import pygame
+# game_functions.py
 
 
 def check_keydown_events(event, ship):
@@ -34,11 +38,10 @@ def check_events(ship):
             check_keyup_events(event, ship)
 
 
-def update_screen(ai_settings, screen, ship):
-    """Update images on the screen and flip to the new screen."""
-    # Redraw the screen during each pass through the loop.
-    screen.fill(ai_settings.bg_color)
-    ship.blitme()
-
-    # Make the most recently drawn screen visible.
-    pygame.display.flip()
+"""
+We make two new functions:
+check_keydown_events() and check_keyup_events(). Each needs an event parameter and a ship parameter. The bodies
+of these two functions are copied from check_events(), and we've replaced the old code with calls to the new
+functions. The check_events() function is simpler now with this cleaner code structure, which will make it 
+easier to develop further responses to player input.
+"""

@@ -10,7 +10,7 @@ class Ship():
 
         # Load the ship image and get its rect.
         self.image = pygame.image.load(
-            'Part II - Projects\Project 1 - Alien Invasion\Project Files\images\ship.bmp')
+            'Python_Crash_Course_WIP\Part II - Projects\Project 1 - Alien Invasion\Project Files\images\ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
@@ -24,12 +24,6 @@ class Ship():
         # Movement flags
         self.moving_right = False
         self.moving_left = False
-
-        # Bullet settings
-        self.bullet_speed_factor = 1
-        self.bullet.width = 3
-        self.bullet.height = 15
-        self.bullet_color = 60, 60, 60
 
     def update(self):
         """Update the ship's position based on  movement flags."""

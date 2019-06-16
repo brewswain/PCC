@@ -39,5 +39,18 @@ alien in its path, you could set the first Boolean argument to False and keep th
 argument set to true. The aliens hit would disappear, but all bullets would stay active until they 
 disappeared off the top of the screen.)
 
-We pass thr argument aliens in the call to update_bullets():
+We pass the argument aliens in the call to update_bullets():
+"""
+
+# alien_invasion.py
+
+while True:
+    gf.check_events(ai_settings, screen, ship, bullets)
+    ship.update()
+    gf.update_bullets(aliens, bullets)
+    gf.update_aliens(ai_settings, aliens)
+    gf.update_screen(ai_settings, screen, ship, aliens, bullets)
+
+"""
+When you run alien invasion now, aliens you hit should disappear.
 """

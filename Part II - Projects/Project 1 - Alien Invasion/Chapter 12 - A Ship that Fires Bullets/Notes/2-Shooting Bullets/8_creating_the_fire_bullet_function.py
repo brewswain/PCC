@@ -31,5 +31,5 @@ The function fire_bullet() simply contains the code that was used to fire a bull
 spacebar is pressed, and we add a call to fire_bullet() in check_keydown_events() when the
 spacebar is pressed.
 
-Run alien_invasion.py one more time and make sure you can satill fire bullets without errors.
+Run alien_invasion.py one more time and make sure you can still fire bullets without errors.
 """

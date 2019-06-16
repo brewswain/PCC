@@ -10,16 +10,28 @@ class Settings():
 
         # Ship settings
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
-        # Bullet settings
-        self.bullet_speed_factor = 1
-        self.bullet_width = 3
-        self.bullet_height = 15
+        # # Bullet settings
+        # self.bullet_speed_factor = 3
+        # self.bullet_width = 3
+        # self.bullet_height = 15
+        # self.bullet_color = 60, 60, 60
+        # self.bullets_allowed = 5
+
+        # Bullet debug settings
+        self.bullet_speed_factor = 3
+        self.bullet_width = 9999
+        self.bullet_height = 20
         self.bullet_color = 60, 60, 60
-        self.bullets_allowed = 5
+        self.bullets_allowed = 99
 
         # Alien settings
         self.alien_speed_factor = 1
-        self.fleet_drop_speed = 10
+        # self.fleet_drop_speed = 10
+
+        # Debug speed
+        self.fleet_drop_speed = 100
+
         # fleet_direction of 1 represents rights; -1 represents left.
         self.fleet_direction = 1

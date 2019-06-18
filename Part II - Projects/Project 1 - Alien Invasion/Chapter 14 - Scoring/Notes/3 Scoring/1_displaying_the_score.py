@@ -25,7 +25,7 @@ than __init__().
 # Displaying the Score
 
 """
-To display the sacore on the screen, we first create a new class, ScoreBoard. For now this 
+To display the sacore on the screen, we first create a new class, Scoreboard. For now this 
 class will just display the current score, but we'll use it to report the high score, level,
 and number of ships remaining as well. Here's the first part of the class; save it as 
 scoreboard.py:
@@ -34,7 +34,7 @@ scoreboard.py:
 # scoreboard.py
 
 
-class ScoreBoard():
+class Scoreboard():
     """A class to report scoring information."""
 
     def __init__(self, ai_settings, screen, stats):

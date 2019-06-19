@@ -6,19 +6,17 @@ environment:
 
 python manage.py migrate
 
-"""
-Operations to perform:
-Apply all migrations: admin, auth, contenttypes, sessions
-Running migrations:
-Applying contenttypes.0001_initial... OK
-Applying auth.0001_initial... OK
-Applying admin.0001_initial... OK
---snip--
-Applying sessions.0001_initial... OK
-"""
+# Operations to perform:
+# Apply all migrations: admin, auth, contenttypes, sessions
+# Running migrations:
+# Applying contenttypes.0001_initial... OK
+# Applying auth.0001_initial... OK
+# Applying admin.0001_initial... OK
+# --snip--
+# Applying sessions.0001_initial... OK
 
 ls
-'db.sqlite3  learning_log/  ll_env/  manage.py*'
+# db.sqlite3  learning_log/  ll_env/  manage.py*
 
 """
 Any time we modify a database, we say we're migrating the database. Issuing the migrate command

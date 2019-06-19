@@ -6,11 +6,11 @@ the terminal prompt), enter the following commands to create a new project:
 django-admin startproject learning_log .
 
 ls
-'learning_log/  ll_env/  manage.py'
+# learning_log/  ll_env/  manage.py
 
 ls learning_log
-'__init__.py  settings.py  urls.py  wsgi.py'
-'
+# __init__.py  settings.py  urls.py  wsgi.py
+
 
 """
 The command at line 6 tells Django to set up a new project called learning_log. The dot at the

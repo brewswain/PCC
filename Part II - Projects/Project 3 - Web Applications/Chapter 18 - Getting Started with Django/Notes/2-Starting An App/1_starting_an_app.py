@@ -13,10 +13,10 @@ source ll_env/Scripts/activate
 python manage.py startapp learning_logs
 
 ls
-'db.sqlite3  learning_log/  learning_logs/  ll_env/  manage.py*'
+# db.sqlite3  learning_log/  learning_logs/  ll_env/  manage.py*
 
 ls learning_logs
-'__init__.py  admin.py  apps.py  migrations/  models.py  tests.py  views.py'
+# __init__.py  admin.py  apps.py  migrations/  models.py  tests.py  views.py
 
 """
 The command startapp appname tells Django to create the infrastructure needed to build an app.

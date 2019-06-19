@@ -4,21 +4,20 @@ follows to view the project in its current state:
 """
 python manage.py runserver
 
+# Watching for file changes with StatReloader
+# [19/Jun/2019 11:58:37] "GET / HTTP/1.1" 200 16348
+# [19/Jun/2019 11:58:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+# [19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+# [19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+# [19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+# Not Found: /favicon.ico
+# [19/Jun/2019 11:58:38] "GET /favicon.ico HTTP/1.1" 404 1978
 
-Watching for file changes with StatReloader
-[19/Jun/2019 11:58:37] "GET / HTTP/1.1" 200 16348
-[19/Jun/2019 11:58:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
-[19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
-[19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
-[19/Jun/2019 11:58:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
-Not Found: /favicon.ico
-[19/Jun/2019 11:58:38] "GET /favicon.ico HTTP/1.1" 404 1978
-
-System check identified no issues (0 silenced).
-June 19, 2019 - 11:55:32
-Django version 2.2.2, using settings 'learning_log.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+# System check identified no issues (0 silenced).
+# June 19, 2019 - 11:55:32
+# Django version 2.2.2, using settings 'learning_log.settings'
+# Starting development server at http://127.0.0.1:8000/
+# Quit the server with CTRL-BREAK.
 
 """
 Django should start a server called the development server, so you can view the project on your

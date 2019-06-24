@@ -91,3 +91,16 @@ topic links to the appropriate page. Here's the change you need to make to topic
     </li >
     {% empty % }
 --snip--
+
+"""
+We use the URL template tag to generate the proper link, based on the URL pattern in 
+learning_logs with the name 'topic'. This URL pattern requires a topic_id argument, so we add 
+the attribute topic.id to the URL template tag. Now each topic in the list of topics is a link
+to a topic page, such as http://localhost:8000/topics/1/.
+
+NB. There's a subtle but important difference between topic.id and topic_id. 
+The expression topic.id examines a topic and retrieves the value of the corresponging ID.
+The variable topic_id is a reference to that ID in the code. 
+If you run into errors when working with IDs, make sure you're using these expressions in the
+appropriate ways.
+"""

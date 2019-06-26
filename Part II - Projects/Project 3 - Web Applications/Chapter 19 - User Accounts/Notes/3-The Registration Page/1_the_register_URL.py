@@ -71,18 +71,18 @@ We import the render() and redirect() functions. Then we import the login() func
 user in if their registration information is correct. We also import the default 
 UserCreationForm. In the register() function, we check whether or not we're responding to a
 POST request. If we're not, we make an instance of UserCreationForm with no initial data
-(line 57). 
+(line 53). 
 
 If we're responding to a POST request, we make an instance of UserCreationForm based on the 
-submitted data(line 60). We check that the data is valid(line 62)-- in this case, that the
+submitted data(line 56). We check that the data is valid(line 58)-- in this case, that the
 username has the appropriate characters, the passwords match, and the user isn't trying to do 
 anything malicious in their submission.
 
 If the submitted data is valid, we call the form's save() method to save the username and the 
-hash of the password to the database(line 63). The save() method returns the newly created user
+hash of the password to the database(line 59). The save() method returns the newly created user
 object, which we assign to new_user. When the user's information is saved, we log them in by 
-calling the login() function with the request and new_user objects(line 65), which creates a
-valid session for the new user. Finally, we redirect the user to the home page(line 66), where a
+calling the login() function with the request and new_user objects(line 61), which creates a
+valid session for the new user. Finally, we redirect the user to the home page(line 62), where a
 personalized greeting in the header tells them their registration was successful.
 
 At the end of the function we render the page, which will either be a blank form or a submitted 
